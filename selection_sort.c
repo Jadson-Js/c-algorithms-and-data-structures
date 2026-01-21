@@ -24,7 +24,6 @@ int main(void)
   for (int i = 0; i < arr_size; i++)
   {
     int lowest_index = find_lowest_index(arr, arr_size);
-    // printf("%i", lowest_index);
     arr_ordened[i] = arr[lowest_index];
     arr[lowest_index] = -1;
   }

@@ -1,2 +1,2 @@
 run:
-	gcc $(FILE).c -o $(FILE) && ./$(FILE)
+	gcc $(file).c -o $(file) && ./$(file)
